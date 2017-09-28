@@ -1,0 +1,20 @@
+{
+  "name": "Test-Ticket",
+  "description": "Test-Ticket",
+  "scripts": {
+    "postdeploy": "https://my302850.crm.ondemand.com/sap/c4c/odata/v1/c4codata/ServiceRequestCollection",
+    "pr-predestroy": "https://my302850.crm.ondemand.com/sap/c4c/odata/v1/c4codata/ServiceRequestCollection"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://my302850.crm.ondemand.com/sap/c4c/odata/v1/c4codata/ServiceRequestCollection"
+    }
+  ]
+}
